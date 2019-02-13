@@ -1,0 +1,24 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Data dirs and symlinks
+data/
+data
+
+# Secrets
+secrets/
+
+# Jupyter stuff
+.ipynb_checkpoints
+
+# OS junk
+.DS_Store
+._*
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+Thumbs.db
+[Dd]esktop.ini
+RECYCLE.BIN/
