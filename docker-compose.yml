@@ -8,8 +8,8 @@ services:
     shm_size: '4gb'  # see https://github.com/pytorch/pytorch/issues/2244; increase if necessary
     volumes:
       - ./work:/home/appuser/work # work directory
-      - $HOME/data:/home/appuser/data # data directory
-      - $HOME/.torch:/home/appuser/.torch # torch pre-configured models
+      - $MYDATADIR:/home/appuser/data # data directory
+      - $MYTORCHDIR:/home/appuser/.torch # torch pre-configured models
     ports:
       - 8888:8888
     container_name: melanoma-detection
